@@ -6,8 +6,20 @@
   padding: 5px;
   box-sizing: border-box;
 }
+
+button {
+  background: rgba(69, 69, 231, 0.986);
+  color: rgb(245, 240, 240);
+  font-weight: 700;
+  border-radius: 15px;
+  font-size: 1rem;
+  padding: 13px 8px;
+  margin: 5px;
+  
+}
 li {
   list-style: none;
+
 }
 p {
   font-size: 0.8rem;
@@ -26,54 +38,57 @@ nav ul {
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
-.header {
+header{
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: 30px auto;
-}
-h1 {
-  font-size: 5rem;
-}
-.header-left-container h3 {
-  color: #474dff;
-  font-size: 1.8rem;
-}
-.header-right {
-  width: 50%;
-}
-#modem {
-  width: 100%;
-  margin: 0 auto;
-}
-.infos {
-  display: grid;
-  grid-template-columns: 33% 67%;
-  background: rgb(10, 10, 10);
-  border-radius: 10px;
+  margin: 20px auto;
 }
 
-button {
-  border: none;
-  background: #474dff;
-  color: white;
-  width: 150px;
-  padding: 10px 0;
-  border-radius: 10px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin: 5px;
+.header-left {
+  width: 80%;
 }
-.investors {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 86%;
+.header-left-container h2 {
+font-size: 5rem;
 }
-.img-container {
-  display: flex;
-  justify-content: space-around;
+
+.header-left-container h3 {
+  font-size: 1.8rem;
+  color: rgba(69, 69, 231, 0.986);
+}
+.header-right{
   width: 100%;
 }
-.img-container img {
-  height: 60px;
+#modem {
+  width: 90%;
+}
+
+.infos{
+  display: grid;
+  grid-template-columns:30% 70%;
+  background: rgb(10, 10, 10);
+}
+.info-left h4 {
+  font-size: 1.5rem;
+ 
+}
+.btn-container{
+  display: grid;
+  grid-template-rows:33% 33% 33% ;
+  width: 40%;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.info-right h5{
+  font-size: 1.5rem;
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.img-container img{
+  width: 40%;
+  margin:40px auto;
 }
